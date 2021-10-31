@@ -1,0 +1,16 @@
+[build-system]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "i2disc"
+author = "Incellectuals2 Meme Page on IG"
+author-email = "grad.camber.0q@icloud.com"
+home-page = "https://github.com/incellectuals2/i2disc"
+description-file = "README.md"
+requires = [
+    "discord",
+]
+
+[tool.flit.scripts]
+i2disc = "i2disc:main"
